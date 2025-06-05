@@ -25,7 +25,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column; /* ¡Agrega esta línea! */
+  /* place-items: center;  Puedes eliminar o comentar esta línea si quieres */
+  /* align-items: flex-start;  Si quieres que el contenido se alinee a la izquierda, puedes añadir esto */
   min-width: 320px;
   min-height: 100vh;
 }
