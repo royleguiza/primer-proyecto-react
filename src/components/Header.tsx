@@ -12,7 +12,7 @@ function Header() {
             <ul className="flex space-x-6">
               <li>
                 <a className="text-white hover:text-[#1f1f1f] transition duration-300">
-                  Home
+                  Ofertas
                 </a>
               </li>
               <li>
