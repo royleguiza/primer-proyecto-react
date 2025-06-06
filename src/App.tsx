@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="flex justify-center space-x-4">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -32,4 +32,35 @@ function App() {
   )
 }
 
-export default App
+export default App*/
+
+import ProductCard from "./components/ProductCard";
+
+function App(){
+  return (
+    <>
+      <ProductCard
+        title="titulo"
+        description="descripcion"
+        src="https://http2.mlstatic.com/D_NQ_NP_857212-MLA76273611895_052024-O.webp"
+        precio={10000}
+      />
+
+      <ProductCard
+        title="titulo"
+        description="descripcion"
+        src="https://http2.mlstatic.com/D_NQ_NP_857212-MLA76273611895_052024-O.webp"
+        precio={10000}
+      />
+
+      <ProductCard
+        title="titulo"
+        description="descripcion"
+        src="https://http2.mlstatic.com/D_NQ_NP_857212-MLA76273611895_052024-O.webp"
+        precio={10000}
+      />  
+    </>
+  )
+}
+
+export default App;
