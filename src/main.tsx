@@ -10,8 +10,8 @@ createRoot(document.getElementById('header')!).render(
     <Header />
   </StrictMode>,
 );
-createRoot(document.getElementById('root')!).render(
-<StrictMode>
-  <App />
-</StrictMode>,
+ createRoot(document.getElementById('root')!).render(
+   <StrictMode>
+     <App />
+   </StrictMode>,
 )
